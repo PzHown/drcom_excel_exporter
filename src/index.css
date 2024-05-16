@@ -1,0 +1,39 @@
+/* Initialize styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color:var(--color-primary-text); */
+}
+
+/* Remove underlines */
+a {
+  text-decoration: none;
+}
+
+/* Remove blue overlay on mobile click */
+a:focus,
+button:focus {
+  outline: none;
+}
+/* 
+p,span,a,button,li,div, input, label, select, textarea, option,i,td,th {
+  --un-text-opacity: 0.8;
+} */
+
+*, ::before, ::after{
+  --un-bg-opacity: 1;
+  --color-primary: rgba(222 66 68 / var(--un-bg-opacity));
+  --color-secondary:rgba(248 133 56 / var(--un-bg-opacity));
+  --color-background:rgba(233 243 243 / var(--un-bg-opacity));
+  
+  --color-primary-base: rgba(222 66 68 / 1);
+  --color-secondary-base:rgba(248 133 56 / 1);
+  --color-background-base:rgba(233 243 243 / 1);
+
+  
+  --un-text-opacity: 1;
+  --color-primary-text: rgba(222 66 68 / var(--un-text-opacity));
+  --color-secondary-text:rgba(248 133 56 / var(--un-text-opacity));
+  --color-background-text:rgba(233 243 243 / var(--un-text-opacity));
+}
